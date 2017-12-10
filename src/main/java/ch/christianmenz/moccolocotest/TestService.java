@@ -14,7 +14,7 @@ public class TestService {
         return new StringBuilder(s).reverse().toString();
     }
 
-    @LibraryMoccolocoSupport("in-out")
+//    @LibraryMoccolocoSupport("in-out")
     public Out compute(In in) {
         Out out = new Out();
         out.setBigDecimal(in.getBigDecimal());

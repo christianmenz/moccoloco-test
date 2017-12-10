@@ -49,13 +49,4 @@ public class In {
     }
 
 
-    @Override
-    public boolean equals(Object obj) {
-        return Objects.equals(this, obj);
-    }
-
-    @Override
-    public int hashCode() {
-        return 1;
-    }
 }
